@@ -1,0 +1,23 @@
+Step 1: Install the Angular CLI
+npm install -g @angular/cli
+
+Step 2: Create a workspace and initial application
+ng new my-app
+
+Step 3: Run the application
+1.Go to the workspace folder (my-app).
+cd my-app
+2. Launch the server by using the CLI command ng serve, with the --open option.
+ng serve --open
+
+(or: http://localhost:4200/)
+
+
+
+----
+ng add @angular/material
+ng add @angular/cdk
+----
+
+Create folders: 
+ng g component <folder>/<sub-folder>
