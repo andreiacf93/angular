@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myhomepage';
+  changeTheme() {
+    if (document.body.classList.contains("default-theme")) {
+      document.body.classList.remove("default-theme");
+      document.body.classList.add("dark-theme");
+    }
+    else {
+      document.body.classList.remove("dark-theme");
+      document.body.classList.add("default-theme");
+    }
+  }
 }
