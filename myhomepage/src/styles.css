@@ -17,19 +17,6 @@ body {
     text-decoration-color: white;
 }
 
-.col.box {
-    width: 40px;
-    height: 20px;
-}
-.box.person {
-    border: solid 1px white;
-    padding: 3em 1.5em;
-}
-.box {
-    border: solid 1px white;
-    margin-bottom: 2em;
-    padding: 1.5em;
-}
 h1 { 
     font-family: Raleway; 
     font-size: 24px; 
