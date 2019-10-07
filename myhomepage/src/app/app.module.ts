@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule} from '@angular/material';
 import { ButtonComponent } from './button/button.component';
+import { MenuComponent } from './menu/menu.component';
 
 const appRoutes: Routes = [
 ];
@@ -12,7 +13,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent
+    ButtonComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

@@ -1,20 +1,76 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 body {
-    margin: 0;
-    height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    font-family: Raleway;
 }
-.basic-container {
-    padding: 30px;
-  }
-
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+.container-announce {
+    margin: 30px;
+    background-color:white;
+    float: none;
+}
+.meet-host{
+    color: white;
+    background-color: rgb(83, 133, 193);
+    margin: 0px;
+    text-align: start;
+    text-decoration-color: white;
 }
 
-input,
-label {
-    margin: .4rem 0;
+.col.box {
+    width: 40px;
+    height: 20px;
+}
+.box.person {
+    border: solid 1px white;
+    padding: 3em 1.5em;
+}
+.box {
+    border: solid 1px white;
+    margin-bottom: 2em;
+    padding: 1.5em;
+}
+h1 { 
+    font-family: Raleway; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+} 
+
+h3 { 
+    font-family: Raleway; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Raleway; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+} 
+
+blockquote { 
+    font-family: Raleway; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Raleway; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5667px; 
 }
