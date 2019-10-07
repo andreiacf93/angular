@@ -21,3 +21,11 @@ ng add @angular/cdk
 
 Create folders: 
 ng g component <folder>/<sub-folder>
+
+
+color: #5385c1 -> rgb(83, 133, 193)
+
+#6c1581 -> rgb(108,21,129)
+
+background: rgba(107, 21, 129, 0.452);
+rgb(200, 183, 247); -> #c8b7f7
