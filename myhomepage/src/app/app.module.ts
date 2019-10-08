@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {MatButtonModule, MatCheckboxModule, MatToolbarModule} from '@angular/material';
 import { ButtonComponent } from './button/button.component';
 import { MenuComponent } from './menu/menu.component';
+import { SlideCarousselComponent } from './slide-caroussel/slide-caroussel.component';
 
 const appRoutes: Routes = [
 ];
@@ -14,7 +15,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     ButtonComponent,
-    MenuComponent
+    MenuComponent,
+    SlideCarousselComponent
   ],
   imports: [
     BrowserModule,

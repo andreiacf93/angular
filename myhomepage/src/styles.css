@@ -8,6 +8,9 @@ body {
     margin: 30px;
     background-color:white;
     float: none;
+/*     background-image: url(\assets\images\navigation\img_nav.png);
+    background-position: top right;
+    background-repeat: no-repeat; */
 }
 .meet-host{
     color: white;
@@ -16,7 +19,6 @@ body {
     text-align: start;
     text-decoration-color: white;
 }
-
 h1 { 
     font-family: Raleway; 
     font-size: 24px; 
