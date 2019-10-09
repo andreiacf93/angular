@@ -3,20 +3,22 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import {MatButtonModule, MatCheckboxModule, MatToolbarModule} from '@angular/material';
-import { ButtonComponent } from './button/button.component';
-import { MenuComponent } from './menu/menu.component';
+import { MatButtonModule, MatCheckboxModule, MatToolbarModule } from '@angular/material';
 import { SlideCarousselComponent } from './slide-caroussel/slide-caroussel.component';
-
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 const appRoutes: Routes = [
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent,
-    MenuComponent,
-    SlideCarousselComponent
+    SlideCarousselComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,12 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
-    )
+    ),
+    LayoutModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
